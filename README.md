@@ -1,35 +1,20 @@
-# AWS CLI Docker Container
-[![GitHub forks](https://img.shields.io/github/forks/sekka1/aws-cli-docker.svg)](https://github.com/sekka1/aws-cli-docker/network)
-[![GitHub stars](https://img.shields.io/github/stars/sekka1/aws-cli-docker.svg)](https://github.com/sekka1/aws-cli-docker/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/sekka1/aws-cli-docker.svg)](https://github.com/sekka1/aws-cli-docker/issues)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/sekka1/aws-cli-docker.svg?style=social)](https://twitter.com/intent/tweet?text=AWS%20CLI%20in%20a%20%40Docker%20container%20%40AWSCLI:&url=https://github.com/sekka1/aws-cli-docker)
-[![Docker Pulls](https://img.shields.io/docker/pulls/garland/aws-cli-docker.svg)](https://hub.docker.com/r/garland/aws-cli-docker/)
-[![Docker Stars](https://img.shields.io/docker/stars/garland/aws-cli-docker.svg)](https://hub.docker.com/r/garland/aws-cli-docker/)
-
-
-# Supported tags and respective `Dockerfile` links
-
-- [`0.1` (*0.1/Dockerfile*)](https://github.com/sekka1/aws-cli-docker/blob/0.1/0.1/Dockerfile)
-- [`0.2` (*0.2/Dockerfile*)](https://github.com/sekka1/aws-cli-docker/blob/0.2/0.2/Dockerfile)
-- [`1.15.47` (*1.15.47/Dockerfile*)](https://github.com/sekka1/aws-cli-docker/tree/master/1.15.47)
-
 # AWS CLI Version
 
-* 1.15.47
+* 1.16.60
 
 # Build
 
 ```
-docker build -t garland/aws-cli-docker:x.x .
+docker build -t systemseed/aws-cli:1.16.60 .
 ```
 
 # Description
 
 Docker container with the AWS CLI installed.
 
-Using [Alpine linux](https://hub.docker.com/_/alpine/).  The Docker image is 87MB
+Using [Alpine linux](https://hub.docker.com/_/alpine/).
 
-An automated build of this image is on Docker Hub: https://hub.docker.com/r/garland/aws-cli-docker/
+An automated build of this image is on Docker Hub: https://hub.docker.com/r/systemseed/aws-cli/
 
 ## Getting your AWS Keys:
 
